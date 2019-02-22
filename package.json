@@ -1,0 +1,24 @@
+{
+  "name": "aptnotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevirtuel/API_ENT_Notes.git"
+  },
+  "author": "Alexis Poupelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codevirtuel/API_ENT_Notes/issues"
+  },
+  "homepage": "https://github.com/codevirtuel/API_ENT_Notes#readme",
+  "dependencies": {
+    "html-to-json-data": "^1.6.0",
+    "html2json": "^1.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
