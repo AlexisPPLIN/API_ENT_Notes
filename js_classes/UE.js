@@ -1,5 +1,5 @@
-var Matiere = require('./Matiere.js');
-module.exports = class UE{
+const Matiere = require('./Matiere.js');
+class UE{
     constructor(code,intitule){
         this.code = code;
         this.intitule = intitule;
@@ -11,11 +11,5 @@ module.exports = class UE{
             this.matieres.push(matiere);
         }
     }
-
-    set code(code){
-        var regex = RegExp('...UE...');
-        if(regex.test(code)){
-            this.code = code;
-        }
-    }
 }
+module.exports = UE;

@@ -1,5 +1,5 @@
-var UE = require('./UE.js');
-module.exports = class Semestre{
+const UE = require('./UE.js');
+class Semestre{
     constructor(code, intitule){
         this.intitule = intitule;
         this.code = code;
@@ -15,11 +15,5 @@ module.exports = class Semestre{
             this.content.push(ue);
         }
     }
-
-    set code(code){
-        var regex = RegExp('...SEM..');
-        if(regex.test(code)){
-            this.code = code;
-        }
-    }
 }
+module.exports = Semestre;

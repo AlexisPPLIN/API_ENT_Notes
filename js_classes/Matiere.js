@@ -1,8 +1,9 @@
-var Note = require('./Note.js');
-module.exports = class Matiere{
-    constructor(code, intitule){
+const Note = require('./Note.js');
+class Matiere{
+    constructor(code, intitule, moyenne){
         this.code = code;
         this.intitule = intitule;
+        this.moyenne = moyenne;
         this.notes = new Array();
     }
 
@@ -11,11 +12,5 @@ module.exports = class Matiere{
             this.notes.push(note);
         }
     }
-
-    set code(code){
-        var regex = RegExp('...MD...');
-        if(regex.test(code)){
-            this.code = code;
-        }
-    }
 }
+module.exports = Matiere;

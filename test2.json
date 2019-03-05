@@ -1,0 +1,418 @@
+[
+  {
+    "intitule": "Semestre 1 DUT Info",
+    "code": "721SEM01",
+    "content": [
+      {
+        "code": "721UE001",
+        "intitule": "UE 11 Bases de l'informatique",
+        "matieres": [
+          {
+            "code": "721MD011",
+            "intitule": "M1101 Introduction aux systèmes informatiques",
+            "notes": [
+              {
+                "code": "721EN011P1",
+                "type": "Intro aux sys informatiques (P)",
+                "value": "6"
+              },
+              {
+                "code": "721EN011T1",
+                "type": "Intro aux sys informatiques (T)",
+                "value": "14,5"
+              }
+            ]
+          },
+          {
+            "code": "721MD012",
+            "intitule": "M1102 Introduction à l'algorithmique et à la programmation",
+            "notes": [
+              {
+                "code": "721EN012P1",
+                "type": "Intro à l'algo et à la prog (P)",
+                "value": "18"
+              },
+              {
+                "code": "721EN012T1",
+                "type": "Intro à l'algo et à la prog (T)",
+                "value": "14,5"
+              }
+            ]
+          },
+          {
+            "code": "721MD013",
+            "intitule": "M1103 Structures de données et algorithmiques : Fondamentaux",
+            "notes": [
+              {
+                "code": "721EN013P1",
+                "type": "Struc données et algo. Fondamentaux (P)",
+                "value": "16,5"
+              },
+              {
+                "code": "721EN013T1",
+                "type": "Struc données et algo. Fondamentaux (T)",
+                "value": "15,5"
+              }
+            ]
+          },
+          {
+            "code": "721MD014",
+            "intitule": "M1104 Introduction aux bases de données",
+            "notes": [
+              {
+                "code": "721EN014P1",
+                "type": "Intro bases de données (P)",
+                "value": "17"
+              },
+              {
+                "code": "721EN014T1",
+                "type": "Intro bases de données (T)",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "code": "721MD015",
+            "intitule": "M1105 Conception de documents et d'interfaces numériques",
+            "notes": [
+              {
+                "code": "721EN015P1",
+                "type": "Concept° docs & interfaces num 1 (P)",
+                "value": "12,5"
+              },
+              {
+                "code": "721EN015P2",
+                "type": "Concept° docs & interfaces num 2 (P)",
+                "value": "12,5"
+              },
+              {
+                "code": "721EN015T1",
+                "type": "Concept° docs & interfaces num (T)",
+                "value": "13,58"
+              }
+            ]
+          },
+          {
+            "code": "721MD016",
+            "intitule": "M1106 Projet tutoré - Découverte",
+            "notes": []
+          }
+        ]
+      },
+      {
+        "code": "721UE002",
+        "intitule": "UE 12 Bases de culture scientifique, sociale et humaine",
+        "matieres": [
+          {
+            "code": "721MD021",
+            "intitule": "M1201 Mathématiques discrètes",
+            "notes": [
+              {
+                "code": "721EN021P1",
+                "type": "Maths discrètes (P)",
+                "value": "15"
+              },
+              {
+                "code": "721EN021T1",
+                "type": "Maths discrètes (T)",
+                "value": "8"
+              }
+            ]
+          },
+          {
+            "code": "721MD022",
+            "intitule": "M1202 Algèbre linéaire",
+            "notes": [
+              {
+                "code": "721EN022P1",
+                "type": "Algèbre linéaire (P)",
+                "value": "15,25"
+              },
+              {
+                "code": "721EN022T1",
+                "type": "Algèbre linéaire (T)",
+                "value": "15"
+              }
+            ]
+          },
+          {
+            "code": "721MD023",
+            "intitule": "M1203 Environnement économique",
+            "notes": [
+              {
+                "code": "721EN023P1",
+                "type": "Envir économique (P)",
+                "value": "12"
+              },
+              {
+                "code": "721EN023T1",
+                "type": "Envir économique (T)",
+                "value": "15"
+              }
+            ]
+          },
+          {
+            "code": "721MD024",
+            "intitule": "M1204 Fonctionnement des organisations",
+            "notes": [
+              {
+                "code": "721EN024P1",
+                "type": "Fonctionnement des organisations (P)",
+                "value": "11"
+              },
+              {
+                "code": "721EN024T1",
+                "type": "Fonctionnement des organisations (T)",
+                "value": "14,5"
+              }
+            ]
+          },
+          {
+            "code": "721MD025",
+            "intitule": "M1205 Fondamentaux de la communication",
+            "notes": []
+          },
+          {
+            "code": "721MD026",
+            "intitule": "M1206 Anglais et informatique",
+            "notes": [
+              {
+                "code": "721EN026P1",
+                "type": "Anglais & informatique (P)",
+                "value": "13,5"
+              },
+              {
+                "code": "721EN026T1",
+                "type": "Anglais & informatique (T)",
+                "value": "16"
+              }
+            ]
+          },
+          {
+            "code": "721MD027",
+            "intitule": "M1207 PPP - Connaître le monde professionnel",
+            "notes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "intitule": "Semestre 2 DUT Info",
+    "code": "722SEM01",
+    "content": [
+      {
+        "code": "722UE001",
+        "intitule": "UE 21 : Informatique approfondie",
+        "matieres": [
+          {
+            "code": "722MD011",
+            "intitule": "M2101 Artichtecture et programmation des mécanismes de base",
+            "notes": [
+              {
+                "code": "722EN011P1",
+                "type": "Architecture et programmation (P)",
+                "value": "12"
+              },
+              {
+                "code": "722EN011T1",
+                "type": "Architecture et programmation (T)",
+                "value": "12,5"
+              }
+            ]
+          },
+          {
+            "code": "722MD012",
+            "intitule": "M2102 Architecture des réseaux",
+            "notes": [
+              {
+                "code": "722EN012P1",
+                "type": "Architecture des réseaux (P)",
+                "value": "18"
+              },
+              {
+                "code": "722EN012T1",
+                "type": "Architecture des réseaux (T)",
+                "value": "16"
+              }
+            ]
+          },
+          {
+            "code": "722MD013",
+            "intitule": "M2103 Bases de la programmation orientée objets",
+            "notes": [
+              {
+                "code": "722EN013P1",
+                "type": "Bases de la prog orientée objet (P)",
+                "value": "16"
+              },
+              {
+                "code": "722EN013T1",
+                "type": "Bases de la prog orientée objet (T)",
+                "value": "15,45"
+              }
+            ]
+          },
+          {
+            "code": "722MD014",
+            "intitule": "M2104 Base de la conception orientée objet",
+            "notes": [
+              {
+                "code": "722EN014P1",
+                "type": "Bases de la concep° orientée objet (P)",
+                "value": "17"
+              },
+              {
+                "code": "722EN014T1",
+                "type": "Bases de la concep° orientée objet (T)",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "code": "722MD015",
+            "intitule": "M2105 Introduction aux interfaces homme-machine (IHM)",
+            "notes": [
+              {
+                "code": "722EN015P1",
+                "type": "Introduction aux IHM - Spécifications",
+                "value": "14"
+              },
+              {
+                "code": "722EN015P2",
+                "type": "Introduction aux IHM - Programmation",
+                "value": "18"
+              },
+              {
+                "code": "722EN015T1",
+                "type": "Introduction aux IHM (T)",
+                "value": "13,5"
+              }
+            ]
+          },
+          {
+            "code": "722MD016",
+            "intitule": "M2106 Programmation et administration des bases de donnée",
+            "notes": [
+              {
+                "code": "722EN016P1",
+                "type": "Prog & admin des bases de données (P)",
+                "value": "13,5"
+              },
+              {
+                "code": "722EN016P2",
+                "type": "XML",
+                "value": "15"
+              },
+              {
+                "code": "722EN016T1",
+                "type": "Prog & admin des bases de données (T)",
+                "value": "14,5"
+              }
+            ]
+          },
+          {
+            "code": "722MD017",
+            "intitule": "M2107 Projet tutoré - Description et planification de projet",
+            "notes": []
+          }
+        ]
+      },
+      {
+        "code": "722UE002",
+        "intitule": "UE 22 : Approfondissement en culture scientifique, sociale",
+        "matieres": [
+          {
+            "code": "722MD021",
+            "intitule": "M2201 Graphes et langages",
+            "notes": [
+              {
+                "code": "722EN021P1",
+                "type": "Graphes et langages (P)",
+                "value": "16,5"
+              },
+              {
+                "code": "722EN021T1",
+                "type": "Graphes et langages (T)",
+                "value": "16"
+              }
+            ]
+          },
+          {
+            "code": "722MD022",
+            "intitule": "M2202 Analyses et méthodes numériques",
+            "notes": [
+              {
+                "code": "722EN022P1",
+                "type": "Analyses & méthodes numériques (P)",
+                "value": "9"
+              },
+              {
+                "code": "722EN022T1",
+                "type": "Analyses & méthodes numériques (T)",
+                "value": "13"
+              }
+            ]
+          },
+          {
+            "code": "722MD023",
+            "intitule": "M2203 Environnement comptable, financier, juridique & social",
+            "notes": [
+              {
+                "code": "722EN023P1",
+                "type": "Envir compt comptable et financier (P)",
+                "value": "11"
+              },
+              {
+                "code": "722EN023P2",
+                "type": "Envir compt juridique et social (P)",
+                "value": "18"
+              },
+              {
+                "code": "722EN023T1",
+                "type": "Envir compt comptable et financier (T)",
+                "value": "10"
+              },
+              {
+                "code": "722EN023T2",
+                "type": "Envir compt juridique et social (T)",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "code": "722MD024",
+            "intitule": "M2204 Gestion de projet informatique",
+            "notes": [
+              {
+                "code": "722EN024P1",
+                "type": "Gestion de projet informatique (P)",
+                "value": "15,25"
+              },
+              {
+                "code": "722EN024T1",
+                "type": "Gestion de projet informatique (T)",
+                "value": "17"
+              }
+            ]
+          },
+          {
+            "code": "722MD025",
+            "intitule": "M2205  Communication, information et argumentation",
+            "notes": []
+          },
+          {
+            "code": "722MD026",
+            "intitule": "M2206 Communiquer en anglais",
+            "notes": []
+          },
+          {
+            "code": "722MD027",
+            "intitule": "M2207 PPP - Identifier ses compétences",
+            "notes": []
+          }
+        ]
+      }
+    ]
+  }
+]
