@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  selenium:
+    image: vvoyer/selenium-standalone
+    ports:
+      - '4444:4444'
+  node:
+    image: codevirtuel/api_ent_notes
+    ports:
+      - '80:80'
