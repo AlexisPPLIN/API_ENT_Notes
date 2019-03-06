@@ -155,15 +155,6 @@ function reformatJson(json) {
         }
     });
 
-    //Sauvegarde du nouveau fichier
-    fs.writeFile("result.json", JSON.stringify(array), function (err) {
-        if (err) {
-            return console.log(err);
-        }
-
-        console.log("The file was saved!");
-    });
-
     //Retourne le json traité
     return JSON.parse(JSON.stringify(array));
 }
