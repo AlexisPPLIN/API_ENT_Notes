@@ -1,6 +1,11 @@
 # API_ENT_Notes
 API de récupération de notes de l'ENT de Laval
 
+### Crédits
+Ce projet a été réalisé dans le cadre d'un projet tuteuré de semestre 4 en DUT Informatique à l'IUT de Laval par :
+* Alexis POUPELIN (développeur de l'API)
+* Quentin PINEAU (développeur de l'application Android/IOS utilisant l'API)
+
 ### Pré-requis
 * Docker (https://www.docker.com/)
 
