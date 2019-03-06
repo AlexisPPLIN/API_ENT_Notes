@@ -14,7 +14,7 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 
 
 async function getNotes(username, password, onglet) {
-    let driver = await new Builder().forBrowser('chrome').usingServer('http://localhost:4444/wd/hub').build();
+    let driver = await new Builder().forBrowser('chrome').usingServer('http://104.248.166.240:4444/wd/hub').build();
     try {
         //Se rendre sur la page de connection de l'ent
         await driver.get('https://cas.univ-lemans.fr/cas/login?service=http://ent.univ-lemans.fr/Login');
