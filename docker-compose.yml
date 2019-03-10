@@ -6,8 +6,8 @@ services:
       - '4444:4444'
   nodejs:
     image: codevirtuel/api_ent_notes
-	networks:
-	  - app-network
+    networks:
+      - app-network
   webserver:
     image: nginx:mainline-alpine
     container_name: webserver
@@ -33,7 +33,6 @@ services:
     depends_on:
       - webserver
     command: certonly --webroot --webroot-path=/var/www/html --email alexis@alexispoupelin.me --agree-tos --no-eff-email --staging -d alexispoupelin.me
-	
 volumes:
   certbot-etc:
   certbot-var:
