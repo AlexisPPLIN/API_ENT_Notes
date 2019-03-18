@@ -146,7 +146,7 @@ function reformatJson(json) {
             pres_matiere = matiere;
         }
         if (regex_note.test(element.Code)) {
-            var type = element.Code.charAt(9);
+            var type = element.Code.charAt(8);
             if(type !== "P" || type !== "T"){
                 type = "unknown";
             }
