@@ -146,7 +146,11 @@ function reformatJson(json) {
             pres_matiere = matiere;
         }
         if (regex_note.test(element.Code)) {
-            var note = new Note(element.Code, element.Description, element.Note);
+            var type = element.Code.charAt(9);
+            if(type !== "P" || type !== "T"){
+                type = "unknown";
+            }
+            var note = new Note(element.Code,type, element.Description, element.Note);
             if (pres_matiere != null) {
                 pres_matiere.notes.push(note);
             }
