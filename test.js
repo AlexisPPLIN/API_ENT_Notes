@@ -147,8 +147,7 @@ function reformatJson(json) {
         }
         if (regex_note.test(element.Code)) {
             var type = element.Code.charAt(8);
-            console.log(type);
-            if(type !== "P" || type !== "T"){
+            if(type !== "P" && type !== "T"){
                 type = "unknown";
             }
             var note = new Note(element.Code,type, element.Description, element.Note);
