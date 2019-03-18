@@ -160,7 +160,7 @@ function reformatJson(json) {
     });
 
     //Retourne le json traité
-    return JSON.stringify(array);
+    return JSON.parse(array);
 }
 
 exports.getNotes = getNotes;
