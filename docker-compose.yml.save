@@ -4,8 +4,6 @@ services:
     image: vvoyer/selenium-standalone
     ports:
       - '4444:4444'
-    networks:
-     - app-network      
   nodejs:
     image: codevirtuel/api_ent_notes
     networks:
@@ -15,20 +13,18 @@ services:
     container_name: webserver
     restart: unless-stopped
     ports:
-      - "80:80"      
-      - "443:443"
+      - "80:80"
     volumes:
       - web-root:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
       - certbot-etc:/etc/letsencrypt
       - certbot-var:/var/lib/letsencrypt
-      - dhparam:/etc/ssl/certs
     depends_on:
       - nodejs
     networks:
       - app-network
   certbot:
-    image: certbot/certbot:latest
+    image: certbot/certbot
     container_name: certbot
     volumes:
       - certbot-etc:/etc/letsencrypt
@@ -36,8 +32,8 @@ services:
       - web-root:/var/www/html
     depends_on:
       - webserver
-    command: certonly --webroot --webroot-path=/var/www/html --email alexis@alexispoupelin.me --agree-tos --noninteractive --no-eff-email --server https://acme-v01.api.letsencrypt.org/directory -d alexispoupelin.me -d www.alexispoupelin.me
-volumes:
+    command: certonly --webroot --webroot-path=/var/www/html --email alexis@alexispoupelin.me --agree-tos --no-eff-email 
+--staging -d alexispoupelin.me volumes:
   certbot-etc:
   certbot-var:
   web-root:
@@ -45,12 +41,6 @@ volumes:
     driver_opts:
       type: none
       device: /home/codevirtuel/node_project/views/
-      o: bind
-  dhparam:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/codevirtuel/node_project/dhparam/
       o: bind
 
 networks:
