@@ -156,8 +156,7 @@ function reformatJson(json) {
             if (pres_matiere != null) {
                 pres_matiere.notes.push(note);
                 //remove empty notes if they exists
-                var newArray = pres_matiere.notes.filter(value => Object.keys(value).length !== null);
-                pres_matiere.notes = newArray;
+                pres_matiere.notes = pres_matiere.notes.filter(value => value.code !== null);
             }
 
             pres_note = note;
