@@ -154,14 +154,10 @@ function reformatJson(json) {
             }
             var note = new Note(element.Code,type, element.Description, element.Note);
             if (pres_matiere != null) {
-                //remove empty notes if they exists
-                for(var i = pres_matiere.notes.length - 1; i >= 0; i--) {
-                    var note_tmp = Object.assign(pres_matiere.notes[i] , Note);
-                    if(note_tmp.code === null || note_tmp.type === null || note_tmp.description === null || note_tmp.value == null ) {
-                        pres_matiere.splice(i, 1);
-                    }
-                }
                 pres_matiere.notes.push(note);
+                //remove empty notes if they exists
+                var newArray = pres_matiere.notes.filter(value => Object.keys(value).length !== null);
+                pres_matiere.notes = newArray;
             }
 
             pres_note = note;
