@@ -139,6 +139,8 @@ function reformatJson(json) {
         }
         if (regex_matiere.test(element.Code)) {
             var matiere = new Matiere(element.Code, element.Description, element.Note);
+            var empty_note = new Note(null,null,null,null);
+            matiere.addNote(empty_note);
             if (pres_ue != null) {
                 pres_ue.matieres.push(matiere);
             }
@@ -152,6 +154,10 @@ function reformatJson(json) {
             }
             var note = new Note(element.Code,type, element.Description, element.Note);
             if (pres_matiere != null) {
+                //remove empty notes if they exists
+                if(pres_matiere.notes.size() > 1 && pres_matiere.notes.get(0).Code === null){
+                    pres_matiere.notes = new Array();
+                }
                 pres_matiere.notes.push(note);
             }
 
