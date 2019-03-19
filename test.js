@@ -155,8 +155,11 @@ function reformatJson(json) {
             var note = new Note(element.Code,type, element.Description, element.Note);
             if (pres_matiere != null) {
                 //remove empty notes if they exists
-                if(pres_matiere.notes.length >= 1 && pres_matiere.notes[0].Code === null){
-                    pres_matiere.notes = [];
+                for(var i = pres_matiere.notes.length - 1; i >= 0; i--) {
+                    var note_tmp = Object.assign(pres_matiere.notes[i] , Note);
+                    if(note_tmp.code === null || note_tmp.type === null || note_tmp.description === null || note_tmp.value == null ) {
+                        pres_matiere.splice(i, 1);
+                    }
                 }
                 pres_matiere.notes.push(note);
             }
