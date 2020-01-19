@@ -1,5 +1,7 @@
 # API_ENT_Notes
-API de récupération de notes de l'ENT de Laval
+API de récupération de notes de l'ENT de Laval 
+
+:warning: N'est plus supporté depuis la mise à jour de l'ENT :warning:
 
 ### Crédits
 Ce projet a été réalisé dans le cadre d'un projet tuteuré de semestre 4 en DUT Informatique à l'IUT de Laval par :
